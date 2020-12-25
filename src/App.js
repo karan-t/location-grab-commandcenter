@@ -77,7 +77,7 @@ class App extends Component {
           visible={this.state.showingInfoWindow}
         >
           <div>
-            <h1>hi</h1>
+            <h1>{this.state.selectedPlace.name}</h1>
           </div>
         </InfoWindow>
       </Map>
