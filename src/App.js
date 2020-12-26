@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Map, InfoWindow, Marker, GoogleApiWrapper } from "google-maps-react";
 import firebase from "./Firebase";
-console.log(process.env);
+
 const api_key = process.env.REACT_APP_API_KEY
 class App extends Component {
   state = {
